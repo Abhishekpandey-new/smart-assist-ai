@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        smart: {
+          blue: "hsl(var(--smart-blue))",
+          "blue-dark": "hsl(var(--smart-blue-dark))",
+          "blue-light": "hsl(var(--smart-blue-light))",
+          sky: "hsl(var(--smart-sky))",
+          charcoal: "hsl(var(--smart-charcoal))",
+        },
+        chat: {
+          user: {
+            bg: "hsl(var(--chat-user-bg))",
+            fg: "hsl(var(--chat-user-fg))",
+          },
+          assistant: {
+            bg: "hsl(var(--chat-assistant-bg))",
+            fg: "hsl(var(--chat-assistant-fg))",
+          },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
